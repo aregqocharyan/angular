@@ -1,0 +1,79 @@
+main{
+  color: #3C3C3C;
+  background-image: url(/assets/images/bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 2%;
+}
+.clear{
+  clear: both;
+}
+input{
+  max-width: 40%;
+}
+.head{
+  float: left;
+  width: 33%;
+  margin-top: 2%;
+  text-align: center;
+}
+.arm{
+  background-image: url(/assets/images/arm.ico);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 2%;
+  border: none;
+}
+.rus{
+  background-image: url(/assets/images/rus.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 2%;
+  border: none;
+}
+.eng{
+  background-image: url(/assets/images/eng.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 2%;
+  border: none;
+}
+.ent{
+  padding: 1% 3%;
+  color: lightgreen;
+  background: gray;
+  font: bold 18px Arial;
+  outline: none;
+}
+article{
+  margin-top: 5%;
+  text-align: center;
+  font: 18px Verdana;
+}
+article  input{
+  max-width: 40%;
+  min-width: 40%;
+  padding: .5%;
+  margin-top: 2%;
+}
+form > button{
+  min-width: 15%;
+  max-width: 15%;
+  padding: .2%;
+  color: lightgreen;
+  background: gray;
+  font: bold 15px Tahoma;
+}
+article > div > input[type="submit"]{
+  min-width: 15%;
+  max-width: 15%;
+  padding: .2%;
+  color: lightgreen;
+  background: gray;
+  font: bold 15px Tahoma;
+}
+input.ng-touched.ng-invalid{
+ border-color: red;
+ color: red;
+}

@@ -1,0 +1,50 @@
+<main>
+
+  <div class="head">
+    <input>
+  </div>
+  <div class="head">
+    <button class="arm"></button>
+    <button class="rus"></button>
+    <button class="eng"></button>
+  </div>
+  <div class="head">
+    <button class="ent">ENTER</button>
+  </div>
+  <div class="clear"></div>
+
+  <article>
+    <h2>
+      HomeMaster это онлайн смарт система,
+      которая позволяет пользователям искать и находить различных специализированных мастеров,
+      которые исправят ваши бытовые проблемы. Идея HomeMaster появилась с целью помочь людям найти мастера всего
+       одним щелчком мыши. Если ваша система отопления вышла из строя, нужно менять трубы или вы решили отремонтировать
+       свою квартиру, тогда HomeMaster это именно то, что вaм нужнo
+
+    </h2>
+  </article>
+  <article>
+    <h3>Добро пожаловать в HomeMaster</h3>
+    <form [formGroup]="myFirstReactiveForm" (submit)="onSubmit()">
+      <input type="text" id="login" placeholder="Mail" formControlName="email" />
+      <br/><br/>
+      <input type="password" id="pass" placeholder="Password" formControlName="pass" />
+      <br/><br/>
+      <button type="submit">Sign in</button>
+    </form>
+  </article>
+
+
+  <article>
+    <h3>Если вы мастер, тогда зарегистрируйтесь в нашем сервисе</h3>
+    <form [formGroup]="RegistrForm" (submit)="RegSubmit()">
+      <input type="text" id="loginReg" placeholder="Mail" formControlName="email" />
+      <br/><br/>
+      <input type="password" id="passReg" placeholder="Password" formControlName="pass" />
+      <br/><br/>
+      <input type="password" id="passConf" placeholder="Confirm your password" formControlName="passConf" />
+      <br/><br/>
+      <button type="submit">Sign up</button>
+    </form>
+  </article>
+</main>
